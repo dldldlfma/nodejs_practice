@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>
+    Black Education
+  </title>
+  <meta charset="utf-8">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="colors.js"></script>
+  <script src="textbox.js"></script>
+  <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+  <input id="night_day" type="button" value="night" onclick="
+  nightDayHandler(this);
+  ">
+
+  <div id='login'><a href="./login/login.html">login</a></div>
+
+  <image src="./black.png" width=150px class="center">
+    <a href="./index.html">
+      <h1>Black Education</h1>
+    </a>
+
+    <p>We hope to make best education system.
+      Now we start of first step to make it!</p>
+
+      <p style="margin-top:5px;">
+        This web page will have a lot of education video lectures.
+        You can take this course for free.</p>
+
+        <h2> Lecture Lists</h2>
+        <ol>
+          <li><a href="./pytorch/pytorch.html">Pytorch</li></a>
+        </ol>
+        <div class="textbox">
+          <textarea id=long_sentance maxlength=200 wrap="hard" autofocus placeholder ="200자 이내로 작성하세요" onchange="
+          limit_length(this);"></textarea>
+        </div>
+
+      </body>
+
+      </html>
